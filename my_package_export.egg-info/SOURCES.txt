@@ -1,0 +1,9 @@
+README.md
+setup.py
+my_package_export.egg-info/PKG-INFO
+my_package_export.egg-info/SOURCES.txt
+my_package_export.egg-info/dependency_links.txt
+my_package_export.egg-info/requires.txt
+my_package_export.egg-info/top_level.txt
+src/__init__.py
+src/other.py

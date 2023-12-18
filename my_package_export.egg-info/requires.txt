@@ -1,0 +1,4 @@
+numpy
+scipy
+matplotlib
+my_package@ git+https://github.com/djoroya/pip_prueba.git

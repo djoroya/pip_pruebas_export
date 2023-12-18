@@ -1,14 +1,15 @@
 from setuptools import setup, find_packages
 
 if __name__ == '__main__':
-  setup( name='my_package',
-        description='My package',
+  setup( name='my_package_export',
+        description='My package export',
           version='0.1',
           packages=find_packages(),
-          install_requires=['numpy', 'scipy', 'matplotlib'],
+          install_requires=['numpy', 'scipy', 'matplotlib',
+                            "my_package @ git+https://github.com/djoroya/pip_prueba.git"],
           author='Deyviss Jesús Oroya-Villalta',
           license='MIT',
-          url='https://github.com/djoroya/pip_prueba_import',
+          url='https://github.com/djoroya/pip_pruebas_export',
           classifiers=[
               'Development Status :: 1 - Planning',
               'Intended Audience :: Science/Research',
